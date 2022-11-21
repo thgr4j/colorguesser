@@ -1,0 +1,33 @@
+html, body, .content {
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#color {
+    height: max(350px, 35vh);
+    aspect-ratio: 1;
+}
+
+#buttons {
+    display: flex;
+}
+
+#buttons > button {
+    font-family: 'Noto', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+
+#text {
+    font-family: 'Noto', sans-serif;
+    font-size: 2em;
+    margin-top: 2vh;
+}
